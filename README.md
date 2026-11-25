@@ -278,8 +278,3 @@ consulta fontes de dados e não está integrada ao sistema da CAIXA. Também nã
 calcula valores de avaliação nem substitui vistoria, análise técnica ou
 aprovação de um engenheiro.
 
-Uma integração real exigiria mapear e testar cada tela e campo, definir as
-fontes dos dados, tratar autenticação e erros e validar o fluxo com autorização
-e supervisão apropriadas. Até essa etapa ser implementada e validada, use
-apenas o formulário local de teste.
-=======
