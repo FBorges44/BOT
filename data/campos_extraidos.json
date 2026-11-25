@@ -1,0 +1,92 @@
+[
+  {
+    "tag": "input",
+    "type": "text",
+    "name": "municipio",
+    "id": null,
+    "placeholder": null,
+    "required": false,
+    "visible": true
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "name": "estado",
+    "id": null,
+    "placeholder": null,
+    "required": false,
+    "visible": true
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "name": "endereco",
+    "id": null,
+    "placeholder": null,
+    "required": false,
+    "visible": true
+  },
+  {
+    "tag": "select",
+    "type": "select-one",
+    "name": "tipo_imovel",
+    "id": null,
+    "placeholder": null,
+    "required": false,
+    "visible": true
+  },
+  {
+    "tag": "input",
+    "type": "number",
+    "name": "area_construida",
+    "id": null,
+    "placeholder": null,
+    "required": false,
+    "visible": true
+  },
+  {
+    "tag": "input",
+    "type": "number",
+    "name": "area_terreno",
+    "id": null,
+    "placeholder": null,
+    "required": false,
+    "visible": true
+  },
+  {
+    "tag": "select",
+    "type": "select-one",
+    "name": "padrao_construtivo",
+    "id": null,
+    "placeholder": null,
+    "required": false,
+    "visible": true
+  },
+  {
+    "tag": "select",
+    "type": "select-one",
+    "name": "estado_conservacao",
+    "id": null,
+    "placeholder": null,
+    "required": false,
+    "visible": true
+  },
+  {
+    "tag": "textarea",
+    "type": "textarea",
+    "name": "observacoes",
+    "id": null,
+    "placeholder": null,
+    "required": false,
+    "visible": true
+  },
+  {
+    "tag": "button",
+    "type": "submit",
+    "name": null,
+    "id": null,
+    "placeholder": null,
+    "required": false,
+    "visible": true
+  }
+]

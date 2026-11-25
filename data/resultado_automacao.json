@@ -1,0 +1,25 @@
+{
+  "preenchimento": {
+    "municipio": true,
+    "estado": true,
+    "endereco": true,
+    "tipo_imovel": true,
+    "area_construida": true,
+    "area_terreno": true,
+    "padrao_construtivo": true,
+    "estado_conservacao": true,
+    "observacoes": true
+  },
+  "validacao": {
+    "municipio": true,
+    "estado": true,
+    "endereco": true,
+    "tipo_imovel": true,
+    "area_construida": true,
+    "area_terreno": true,
+    "padrao_construtivo": true,
+    "estado_conservacao": true,
+    "observacoes": true
+  },
+  "sucesso": true
+}

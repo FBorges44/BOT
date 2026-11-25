@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Laudo</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f1f5f9; padding: 40px; }
+        .container { max-width: 650px; margin: auto; background: white; padding: 30px; border-radius: 12px; }
+        h1 { color: #1e293b; }
+        label { display: block; margin-top: 18px; font-weight: bold; }
+        input, select, textarea {
+            width: 100%; padding: 12px; margin-top: 7px; box-sizing: border-box;
+            border: 1px solid #cbd5e1; border-radius: 6px;
+        }
+        button {
+            margin-top: 25px; padding: 13px; background: #2563eb;
+            color: white; border: none; border-radius: 6px; cursor: pointer;
+        }
+        #resultado { margin-top: 20px; color: green; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Laudo de Engenharia</h1>
+    <form id="laudoForm">
+        <label>Município</label>
+        <input name="municipio" type="text">
+        <label>Estado</label>
+        <input name="estado" type="text">
+        <label>Endereço</label>
+        <input name="endereco" type="text">
+        <label>Tipo de imóvel</label>
+        <select name="tipo_imovel">
+            <option value="">Selecione</option>
+            <option value="Residencial">Residencial</option>
+            <option value="Comercial">Comercial</option>
+        </select>
+        <label>Área construída (m²)</label>
+        <input name="area_construida" type="number" step="0.01">
+        <label>Área do terreno (m²)</label>
+        <input name="area_terreno" type="number" step="0.01">
+        <label>Padrão construtivo</label>
+        <select name="padrao_construtivo">
+            <option value="">Selecione</option>
+            <option value="Baixo">Baixo</option>
+            <option value="Médio">Médio</option>
+            <option value="Alto">Alto</option>
+        </select>
+        <label>Estado de conservação</label>
+        <select name="estado_conservacao">
+            <option value="">Selecione</option>
+            <option value="Ruim">Ruim</option>
+            <option value="Regular">Regular</option>
+            <option value="Bom">Bom</option>
+            <option value="Excelente">Excelente</option>
+        </select>
+        <label>Observações</label>
+        <textarea name="observacoes"></textarea>
+        <button type="submit">Salvar laudo</button>
+    </form>
+    <p id="resultado"></p>
+    <script>
+        document.getElementById("laudoForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            document.getElementById("resultado").textContent =
+                "Formulário enviado para validação!";
+        });
+    </script>
+</div>
+</body>
+</html>

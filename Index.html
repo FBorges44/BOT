@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laudo.AI | Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="login-container">
+
+        <section class="login-card">
+
+            <div class="brand">
+                <div class="brand-icon">L</div>
+                <div>
+                    <h2>LAUDO.AI</h2>
+                    <span>ENGENHARIA • AUTOMAÇÃO</span>
+                </div>
+            </div>
+
+            <div class="welcome">
+                <h1>Bem-vindo de volta.</h1>
+                <p>Acesse sua plataforma de automação de laudos técnicos.</p>
+            </div>
+
+            <form id="loginForm">
+
+                <div class="form-group">
+                    <label for="username">Usuário</label>
+                    <input
+                        type="text"
+                        id="username"
+                        placeholder="Digite seu usuário"
+                        autocomplete="username"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Senha</label>
+
+                    <div class="password-container">
+                        <input
+                            type="password"
+                            id="password"
+                            placeholder="Digite sua senha"
+                            autocomplete="current-password"
+                            required
+                        >
+
+                        <button
+                            type="button"
+                            id="togglePassword"
+                        >
+                            Mostrar
+                        </button>
+                    </div>
+                </div>
+
+                <button type="submit" class="login-button">
+                    Entrar na plataforma
+                </button>
+
+                <p id="message"></p>
+
+            </form>
+
+            <footer>
+                Ambiente de acesso restrito
+            </footer>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+    

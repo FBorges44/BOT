@@ -1,0 +1,15 @@
+{
+  "imovel": {
+    "municipio": "Teresina",
+    "estado": "PI",
+    "endereco": "Rua Exemplo, 100",
+    "tipo_imovel": "Residencial",
+    "area_construida": "120.50",
+    "area_terreno": "250.00"
+  },
+  "avaliacao": {
+    "padrao_construtivo": "Médio",
+    "estado_conservacao": "Bom",
+    "observacoes": "Imóvel utilizado para teste de automação."
+  }
+}
