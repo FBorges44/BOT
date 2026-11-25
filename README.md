@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Automação de laudos — guia passo a passo
 
 Este projeto é um MVP para demonstrar o preenchimento automático de um
@@ -283,5 +283,3 @@ fontes dos dados, tratar autenticação e erros e validar o fluxo com autorizaç
 e supervisão apropriadas. Até essa etapa ser implementada e validada, use
 apenas o formulário local de teste.
 =======
-# BOT
->>>>>>> b49f3039c081fd2ab042061d510a6047faa343ff
